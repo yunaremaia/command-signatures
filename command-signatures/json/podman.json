@@ -1878,7 +1878,10 @@
                     }
                 },
                 {
-                    "name": "list",
+                    "name": [
+                        "list",
+                        "ls"
+                    ],
                     "description": "List machines",
                     "options": [
                         {
@@ -1887,7 +1890,7 @@
                         },
                         {
                             "name": "--format",
-                            "description": "Format volume output using JSON or a Go template",
+                            "description": "Format machine output using JSON or a Go template",
                             "args": { "name": "string" }
                         },
                         { "name": [
